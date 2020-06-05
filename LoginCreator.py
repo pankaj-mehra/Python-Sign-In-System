@@ -1,0 +1,7 @@
+a = input(f"Username please.\n")
+file = open(a + ".txt", "w+")
+file.write("Username = " + a)
+b = input("Password Please.\n")
+file1 = open(a + "Password.txt", "w+")
+file1.write("Password = " + b)
+file.close()
